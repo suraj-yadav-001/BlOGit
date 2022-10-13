@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(144, 190, 221);
+}
+.blog-container{
+    margin-top:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog-container input, textarea{
+    display: flex;
+}
+.blog-container label{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.blog-container input{
+    width:75rem;
+    padding:.8rem;
+    font-size: 2rem;
+    margin-top:1rem;;
+    margin-bottom:1rem;
+    border-radius: .5rem;
+}
+.blog-container textarea{
+    font-size:1.6rem;
+    padding:1rem;
+    margin-top:1rem;
+    border-radius: .3rem;
+    /* z-index:1; */
+}
+.blog-container button{
+    padding:.7rem 1rem; 
+    font-size:2rem;
+    border-radius: .7rem;
+    background-color: rgb(12, 114, 182);
+    margin-top:1.5rem ;
+    border:1px solid rgb(3, 37, 51);
+    color:white;
+    cursor: pointer;
+    margin-bottom:1rem;
+}
+
+
+
+
